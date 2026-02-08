@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services | Dr. Yugandar Clinic</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Playfair+Display:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <header class="main-header">
+        <div class="container nav-container">
+            <div class="logo">Dr. Yugandar <span>Clinic</span></div>
+            <div class="hamburger" onclick="toggleMenu()"><i class="fas fa-bars"></i></div>
+            <nav>
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="services.html" class="active">Services</a></li>
+                    <li><a href="gallery.html">Results</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="section bg-light">
+        <div class="container">
+            <h1 class="text-center">Our Services</h1>
+            <p class="text-center" style="max-width: 600px; margin: 0 auto 50px;">Comprehensive solutions for all your
+                skin, hair, and nail concerns using advanced medical technology.</p>
+
+            <div class="services-grid">
+                <!-- Hair Transplant -->
+                <div class="service-item">
+                    <div class="service-img"
+                        style="background-image: url('assets/service_hair.png'), url('https://placehold.co/400x300?text=Hair+Transplant');">
+                    </div>
+                    <div class="service-content">
+                        <h3>Hair Transplantation</h3>
+                        <p>FUE and Bio-FUE techniques for permanent, natural-looking hair restoration. Minimal downtime
+                            and maximum density.</p>
+                    </div>
+                </div>
+
+                <!-- Laser Hair Removal -->
+                <div class="service-item">
+                    <div class="service-img"
+                        style="background-image: url('assets/service_laser.png'), url('https://placehold.co/400x300?text=Laser+Hair+Removal');">
+                    </div>
+                    <div class="service-content">
+                        <h3>Laser Hair Removal</h3>
+                        <p>Painless and permanent reduction of unwanted body hair using US-FDA approved diode lasers.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Acne Treatment -->
+                <div class="service-item">
+                    <div class="service-img"
+                        style="background-image: url('assets/service_skin.png'), url('https://placehold.co/400x300?text=Acne+Treatment');">
+                    </div>
+                    <div class="service-content">
+                        <h3>Acne & Scar Treatment</h3>
+                        <p>Advanced chemical peels, microneedling, and CO2 fractional laser for clear, smooth skin.</p>
+                    </div>
+                </div>
+
+                <!-- Anti-Aging -->
+                <div class="service-item">
+                    <div class="service-img"
+                        style="background-image: url('https://placehold.co/400x300?text=Anti-Aging');"></div>
+                    <div class="service-content">
+                        <h3>Anti-Aging Solutions</h3>
+                        <p>Botox, fillers, and thread lifts to reduce wrinkles and restore youthful volume.</p>
+                    </div>
+                </div>
+
+                <!-- Pigmentation -->
+                <div class="service-item">
+                    <div class="service-img"
+                        style="background-image: url('https://placehold.co/400x300?text=Pigmentation');"></div>
+                    <div class="service-content">
+                        <h3>Pigmentation Correction</h3>
+                        <p>Treatment for melasma, sun spots, and uneven skin tone using lasers and medical peels.</p>
+                    </div>
+                </div>
+
+                <!-- Skin Glow -->
+                <div class="service-item">
+                    <div class="service-img"
+                        style="background-image: url('https://placehold.co/400x300?text=Medi-Facials');"></div>
+                    <div class="service-content">
+                        <h3>Medi-Facials</h3>
+                        <p>HydraFacial and Carbon Laser Peels for instant glow and deep cleansing.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container text-center">
+            <p>&copy; 2026 Dr. Yugandar Clinic.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

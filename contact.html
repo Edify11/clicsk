@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Dr. Yugandar Clinic</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Playfair+Display:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <header class="main-header">
+        <div class="container nav-container">
+            <div class="logo">Dr. Yugandar <span>Clinic</span></div>
+            <div class="hamburger" onclick="toggleMenu()"><i class="fas fa-bars"></i></div>
+            <nav>
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="gallery.html">Results</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="section bg-light">
+        <div class="container">
+            <h1 class="text-center">Get in Touch</h1>
+            <p class="text-center">Visit us or book an appointment today.</p>
+
+            <div class="features-grid"
+                style="margin-top: 50px; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));">
+                <div class="feature-card">
+                    <i class="fas fa-phone-alt feature-icon"></i>
+                    <h3>Call Us</h3>
+                    <p>+91 93940 93940</p>
+                    <a href="tel:+919394093940" class="btn btn-primary" style="margin-top: 15px;">Call Now</a>
+                </div>
+                <div class="feature-card">
+                    <i class="fab fa-whatsapp feature-icon"></i>
+                    <h3>WhatsApp</h3>
+                    <p>Chat with us for appointments</p>
+                    <a href="https://wa.me/919394093940?text=Hi,%20I%20would%20like%20to%20book%20an%20appointment."
+                        class="btn btn-primary" style="margin-top: 15px; background-color: #25D366;">Chat Now</a>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-clock feature-icon"></i>
+                    <h3>Timings</h3>
+                    <p>Mon - Sat: 12:00 PM - 9:00 PM</p>
+                    <p>Sunday: Contact for availability</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <h2 class="text-center">Visit Our Clinic in Tirupati</h2>
+            <p class="text-center" style="margin-bottom: 30px;">
+                Main Road, Next to TRIVENI CHILDRENS HOSPITAL, <br>Reddy and Reddy's Colony, Tirupati, Andhra Pradesh
+                517501
+            </p>
+            <div style="border-radius: 10px; overflow: hidden; box-shadow: var(--shadow-soft);">
+                <iframe
+                    src="https://maps.google.com/maps?q=Dr%20YUGANDAR%20SKIN%20HAIR%20LASER%20CLINIC%20Tirupati&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                    width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy">
+                </iframe>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container text-center">
+            <p>&copy; 2026 Dr. Yugandar Clinic.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

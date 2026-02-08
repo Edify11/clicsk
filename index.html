@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dr. Yugandar Skin & Hair Laser Clinic | Best Dermatologist in Tirupati</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Playfair+Display:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="main-header">
+        <div class="container nav-container">
+            <div class="logo">
+                Dr. Yugandar <span>Clinic</span>
+            </div>
+            <div class="hamburger" onclick="toggleMenu()">
+                <i class="fas fa-bars"></i>
+            </div>
+            <nav>
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="gallery.html">Results</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container hero-content">
+            <h1>Advanced Skin & Hair Care</h1>
+            <p>Experience world-class dermatology treatments with Dr. Yugandar, Tirupati's most trusted skin and hair
+                specialist.</p>
+            <a href="contact.html" class="btn btn-primary">Book Appointment</a>
+        </div>
+    </section>
+
+    <!-- Features Grid -->
+    <section class="container">
+        <div class="features-grid">
+            <div class="feature-card animate-on-scroll delay-100">
+                <i class="fas fa-user-md feature-icon"></i>
+                <h3>Expert Doctor</h3>
+                <p>Over 10 years of experience in clinical and cosmetic dermatology.</p>
+            </div>
+            <div class="feature-card animate-on-scroll delay-200">
+                <i class="fas fa-microscope feature-icon"></i>
+                <h3>Advanced Tech</h3>
+                <p>US-FDA approved lasers and hair transplant equipment.</p>
+            </div>
+            <div class="feature-card animate-on-scroll delay-300">
+                <i class="fas fa-star feature-icon"></i>
+                <h3>Trusted Results</h3>
+                <p>4.2 Star Rating with over 250+ happy reviews.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Preview -->
+    <section class="section">
+        <div class="container about-preview">
+            <div class="about-text animate-on-scroll">
+                <h4 class="text-gold">Welcome to Dr. Yugandar Clinic</h4>
+                <h2>Rediscover Your Confidence</h2>
+                <p>We believe that healthy skin and hair are the foundation of confidence. Dr. Yugandar Skin & Hair
+                    Laser Clinic offers comprehensive solutions for all your dermatological needs, from acne treatments
+                    to advanced hair transplants.</p>
+                <p>Located in the heart of Tirupati, our clinic combines medical expertise with artistic precision to
+                    deliver natural-looking results.</p>
+                <br>
+                <a href="about.html" class="btn btn-outline">Read More</a>
+            </div>
+            <div class="about-image-wrapper animate-on-scroll delay-200">
+                <img src="assets/doctor_pose.png" alt="Dr Yugandar Dermatologist" class="about-img"
+                    onerror="this.src='https://placehold.co/600x400?text=Doctor+Photo'">
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Preview -->
+    <section class="section bg-light">
+        <div class="container">
+            <h2 class="text-center animate-on-scroll">Our Specialized Treatments</h2>
+            <div class="services-grid">
+                <div class="service-item animate-on-scroll delay-100">
+                    <div class="service-img"
+                        style="background-image: url('assets/service_skin.png'), url('https://placehold.co/400x300?text=Skin+Care');">
+                    </div>
+                    <div class="service-content">
+                        <h3>Clinical Dermatology</h3>
+                        <p>Effective treatments for acne, scars, eczema, and psoriasis.</p>
+                    </div>
+                </div>
+                <div class="service-item animate-on-scroll delay-200">
+                    <div class="service-img"
+                        style="background-image: url('assets/service_hair.png'), url('https://placehold.co/400x300?text=Hair+Care');">
+                    </div>
+                    <div class="service-content">
+                        <h3>Hair Transplantation</h3>
+                        <p>Advanced FUE techniques for natural hair restoration.</p>
+                    </div>
+                </div>
+                <div class="service-item animate-on-scroll delay-300">
+                    <div class="service-img"
+                        style="background-image: url('assets/service_laser.png'), url('https://placehold.co/400x300?text=Laser+Treatment');">
+                    </div>
+                    <div class="service-content">
+                        <h3>Laser Treatments</h3>
+                        <p>Laser hair removal, tattoo removal, and skin resurfacing.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center" style="margin-top: 40px;">
+                <a href="services.html" class="btn btn-primary">View All Services</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="section text-center" style="background-color: var(--primary-blue); color: white;">
+        <div class="container">
+            <h2 style="color: white;">Ready to Transform?</h2>
+            <p style="margin-bottom: 30px; font-size: 1.2rem;">Book your consultation today and take the first step
+                towards better skin & hair.</p>
+            <a href="tel:+919394093940" class="btn" style="background: white; color: var(--primary-blue);">Call 93940
+                93940</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-grid">
+            <div class="footer-col">
+                <h3>Dr. Yugandar Clinic</h3>
+                <p>Best Skin, Hair & Laser Clinic in Tirupati.</p>
+                <div class="social-links">
+                    <!-- Add social icons here if needed -->
+                </div>
+            </div>
+            <div class="footer-col">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Contact Us</h3>
+                <p>Main Road, Next to TRIVENI CHILDRENS HOSPITAL, Reddy and Reddy's Colony, Tirupati.</p>
+                <p><strong>Phone:</strong> +91 93940 93940</p>
+                <p><strong>Hours:</strong> Mon-Sat: 12pm - 9pm</p>
+            </div>
+        </div>
+        <div class="copyright">
+            &copy; 2026 Dr. Yugandar Clinic. All Rights Reserved.
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

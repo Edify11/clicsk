@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Results Gallery | Dr. Yugandar Clinic</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Playfair+Display:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <header class="main-header">
+        <div class="container nav-container">
+            <div class="logo">Dr. Yugandar <span>Clinic</span></div>
+            <div class="hamburger" onclick="toggleMenu()"><i class="fas fa-bars"></i></div>
+            <nav>
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="gallery.html" class="active">Results</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="section">
+        <div class="container">
+            <h1 class="text-center">Patient Results</h1>
+            <p class="text-center">Real transformational results from our happy patients.</p>
+
+            <div class="services-grid" style="margin-top: 50px;">
+                <!-- Gallery Item 1 -->
+                <div class="service-item">
+                    <img src="https://placehold.co/400x300?text=Hair+Transplant+Result"
+                        alt="Hair Transplant Before After">
+                    <div class="service-content">
+                        <h3>Hair Transplantation</h3>
+                        <p>6 Months Post-Op - 2500 Grafts</p>
+                    </div>
+                </div>
+
+                <!-- Gallery Item 2 -->
+                <div class="service-item">
+                    <img src="https://placehold.co/400x300?text=Acne+Scar+Result" alt="Acne Treatment Result">
+                    <div class="service-content">
+                        <h3>Acne Scar Treatment</h3>
+                        <p>After 3 sessions of CO2 Fractional Laser</p>
+                    </div>
+                </div>
+
+                <!-- Gallery Item 3 -->
+                <div class="service-item">
+                    <img src="https://placehold.co/400x300?text=Pigmentation+Result" alt="Pigmentation Result">
+                    <div class="service-content">
+                        <h3>Pigmentation Removal</h3>
+                        <p>Visible reduction in Melasma</p>
+                    </div>
+                </div>
+
+                <!-- Gallery Item 4 -->
+                <div class="service-item">
+                    <img src="https://placehold.co/400x300?text=Laser+Hair+Removal" alt="LHR Result">
+                    <div class="service-content">
+                        <h3>Laser Hair Removal</h3>
+                        <p>Smooth skin after 6 sessions</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center" style="margin-top: 50px;">
+                <p><em>* Individual results may vary. Consult Dr. Yugandar for a personalized assessment.</em></p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container text-center">
+            <p>&copy; 2026 Dr. Yugandar Clinic.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

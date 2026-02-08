@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us | Dr. Yugandar Clinic</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Playfair+Display:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <header class="main-header">
+        <div class="container nav-container">
+            <div class="logo">Dr. Yugandar <span>Clinic</span></div>
+            <div class="hamburger" onclick="toggleMenu()"><i class="fas fa-bars"></i></div>
+            <nav>
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html" class="active">About Us</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="gallery.html">Results</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="section">
+        <div class="container">
+            <h1 class="text-center">About Dr. Yugandar</h1>
+            <div class="about-preview" style="margin-top: 50px;">
+                <div class="about-image-wrapper">
+                    <!-- Placeholder for Doctor Image -->
+                    <img src="assets/doctor_pose.png" onerror="this.src='https://placehold.co/600x600?text=Dr+Yugandar'"
+                        alt="Dr Yugandar" style="border-radius: 10px; box-shadow: var(--shadow-hover);">
+                </div>
+                <div class="about-text">
+                    <h2>Meet Dr. Yugandar</h2>
+                    <h3 class="text-gold">MD, Dermatologist & Hair Transplant Surgeon</h3>
+                    <br>
+                    <p>Dr. Yugandar is a renowned dermatologist based in Tirupati with over a decade of experience in
+                        clinical and cosmetic dermatology. As the Medical Director of Dr. Yugandar Skin & Hair Laser
+                        Clinic, he is committed to providing world-class treatments using state-of-the-art technology.
+                    </p>
+                    <br>
+                    <p>With a patient-centric approach, Dr. Yugandar specializes in advanced hair transplantation, acne
+                        scar management, and anti-aging treatments. His philosophy combines medical science with
+                        artistic precision.</p>
+                    <br>
+                    <p><strong>Registration No:</strong> 51976 APMC</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section bg-light">
+        <div class="container text-center">
+            <h2>Why Choose Us?</h2>
+            <div class="features-grid"
+                style="margin-top: 50px; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));">
+                <div class="feature-card">
+                    <i class="fas fa-certificate feature-icon"></i>
+                    <h3>Certified Excellence</h3>
+                    <p>Recognized as the best skin & hair clinic in Tirupati by patients.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-heart feature-icon"></i>
+                    <h3>Patient Care</h3>
+                    <p>Personalized treatment plans tailored to your skin type.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-check-circle feature-icon"></i>
+                    <h3>Proven Results</h3>
+                    <p>Thousands of successful hair transplants and skin treatments.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container text-center">
+            <p>&copy; 2026 Dr. Yugandar Clinic.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
