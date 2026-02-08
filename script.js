@@ -1,27 +1,22 @@
-// Mobile Menu Toggle
 function toggleMenu() {
-    const navLinks = document.getElementById('navLinks');
-    navLinks.classList.toggle('active');
+    const mobileMenu = document.getElementById('mobileMenu');
+    mobileMenu.classList.toggle('active');
+
+    // Optional: Prevent body scroll when menu is open
+    document.body.style.overflow = mobileMenu.classList.contains('active') ? 'hidden' : 'auto';
 }
 
-// Scroll Animation Observer
+// Scroll Animations
 document.addEventListener('DOMContentLoaded', () => {
-    const observerOptions = {
-        root: null,
-        rootMargin: '0px',
-        threshold: 0.1
-    };
-
-    const observer = new IntersectionObserver((entries, observer) => {
+    const observer = new IntersectionObserver((entries) => {
         entries.forEach(entry => {
             if (entry.isIntersecting) {
                 entry.target.classList.add('is-visible');
-                observer.unobserve(entry.target); // Only animate once
             }
         });
-    }, observerOptions);
+    }, { threshold: 0.1 });
 
-    // Select elements to animate
-    const animatedElements = document.querySelectorAll('.animate-on-scroll');
-    animatedElements.forEach(el => observer.observe(el));
+    document.querySelectorAll('.animate-on-scroll').forEach((el) => {
+        observer.observe(el);
+    });
 });
